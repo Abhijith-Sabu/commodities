@@ -1,0 +1,1 @@
+curl -X POST "http://localhost:4000/v1/chat/completions" -H "Content-Type: application/json" -H "Authorization: Bearer sk-litellm-master-key" -d "{\"model\":\"github_copilot/gpt-5.1-codex\",\"messages\":[{\"role\":\"user\",\"content\":\"Say hello from GitHub Copilot via LiteLLM.\"}]}"
